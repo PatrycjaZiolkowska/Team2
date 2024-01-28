@@ -128,3 +128,9 @@ footer p {
   text-align: center;
   align-items: center;
 }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  main {
+    display: block;
+  }
+}
