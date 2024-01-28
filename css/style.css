@@ -106,17 +106,19 @@ article img {
 }
 
 aside {
-	width: 30%;
-	padding: 20px;
-	background-color: rgb(255, 228, 181);
-	border: 5px inset rgb(211, 98, 98);
+
+  width: 30%;
+  padding: 20px;
+  background-color: rgb(89, 135, 39);
+  border: 5px inset rgb(1, 4, 2);
 }
 
 .widget img {
-	float: left;
-	border: 2px solid rgb(211, 98, 98);
-	margin: 0px 5px 3px 0px;
-	width: 100px;
+  float: left;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0px 5px 3px 0px;
+  width: 400px;
+
 }
 
 .links ul {
