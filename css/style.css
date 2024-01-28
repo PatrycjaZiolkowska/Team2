@@ -96,8 +96,8 @@ article {
 	padding: 30px;
 }
 article h1 {
-	font-family: "Caveat", cursive;
-	font-size: 40px;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
 }
 
 article img {
@@ -131,4 +131,10 @@ aside {
 footer p {
 	text-align: center;
 	align-items: center;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  main {
+    display: block;
+  }
 }
