@@ -1,0 +1,381 @@
+28-29.10.2023 PF Wrocław https://codeshare.io/BAN8ZK
+
+Nazwa sieci: WSB_EDU
+Hasło do internetu: Wroc@love17
+
+GM:
+frontendpodyplomowe@gmail.com
+
+Prośba, aby podpisać sie zawsze w mailu - kierunek, grupa, uczelnia
+
+
+Przerwy:
+9:30-9:45
+11:05-11:15
+12:30-13:00
+14:20-14:30
+
+
+Warunki zaliczenia studiów:
+1/ Projekt - uwaga WYBRANY 1 z 3 z programu studiów 50%
+a) Aplikacja JS
+b) Aplikacja REACT
+c) Aplikacja ANGULAR
+
+2/ Test zaliczeniowy na ostatnich zajęciach - test ABCD (30 pytań) 50%
+
+GRUPA GOOGLE:   
+https://groups.google.com/g/wroclaw_wsb-20232024-frontend
+
+DYSK  GOOGLE:
+https://drive.google.com/drive/folders/14QED8AAfv81ksphCL5_Cyi9gxDY91u4a
+
+Proszę zapisac oba linki do ulubionych - one będą stałe caly rok akademicki
+
+
+Ankietka
+Windows10 +++++++++++
+Windows11 ++++++++
+Linux (jaki?)
+macOS
+macOS M1/M2+++
+
+Nie boimy się korzystać na zajęciach czy przy tworzeniu projektu z Google,StackOverFlow
+
+Linki:
+https://www.jetbrains.com/community/education/
+autocad 
+adobe+ (znizka) 
+https://education.github.com/pack
+
+
+======
+VISUAL STUDIO CODE (IDE)
+
+https://code.visualstudio.com/
+
+Zainstalowane pluginy +++++++++++
+prettier ++++++++++
+es lint ++++++++++
+git history ++++++++++
+git graph +++++++++++
+live server +++++++++
+
+
+Linki:
+https://www.w3schools.com/
+https://htmlcheatsheet.com/
+narzędzie emmet: https://docs.emmet.io/cheat-sheet/
+>> fonts.google.com 
+https://www.w3schools.com/tags/tag_hn.asp
+https://www.w3schools.com/cssref/css_entities.php
+
+https://chrome.google.com/webstore/detail/ruler-measurement/fkfkjailjcijmghkonghlclbjkopjbgh?hl=pl
+
+==ciekawostka
+https://gadzetomania.pl/polski-internet-kilka-i-kilkanascie-lat-temu-jak-zmienialy-sie-popularne-strony,6704648262920321a
+https://vscode.dev/
+
+palety:
+https://colors.muz.li/
+https://coolors.co/
+https://rgbacolorpicker.com/
+
+
+VISUAL STUDIO CODE (IDE)
+
+http://127.0.0.1/ inaczej localhost
+:5500 port
+
+skróty:
+SHIFT+ALT+F formatowanie
+CTRL+/ komentarze (CMD+/)
+CTRL+0 zerowanie wymiarow w przegladarce
+SHIFT+ALT+strzałka w górę lub w dół - duplikowanie linijki
+
+SKRÓTY
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+
+https://validator.w3.org/
+
+ATRYBUTY:
+ID vs CLASS
+   
+id - uzywamy gdy jest element unikalny na stronie
+class - uzywamy gdy chcemy pogrupować elementy ostylowane tak samo albo gdy nie wiem czy element jest unikalny
+
+HEAD - to co przekazujemy do przegladarki
+BODY - to co 'widzimy' w przegladąrce 
+
+https://validator.w3.org/
+
+ZASOBY (assets):
+
+do zadania:
+          https://picsum.photos/150/60 - LOGO, losowanie zdjecia do logo
+          https://unsplash.it/1000/300?image=950
+          https://unsplash.it/700/300?image=870
+          https://unsplash.it/100/100?image=1062
+          
+     
+DRY - don't repeat yourself
+KISS - keep it simple stupid
+     
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt HTML CSS 2023/2024</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <section class="brand">
+          <a href="#">
+            <img src="https://picsum.photos/150/60" alt="Logo" />
+          </a>
+        </section>
+        <nav>
+          <!-- komentarz (niewidoczny dla przeglarki) -->
+          <!-- emmet - usprawnia pisanie kodu -->
+          <!-- ul>li*4>a[href="#"]{Przycisk$} -->
+          <ul>
+            <li>
+              <a href="#">Strona domowa</a>
+            </li>
+            <li>
+              <a href="#">Galeria</a>
+            </li>
+            <li>
+              <a href="#">Kariera</a>
+            </li>
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="slider">
+        <img src="https://unsplash.it/1000/300?image=955" alt="Slider" />
+      </section>
+      <main>
+        <article>
+          <h1>Lorem ipsum dolor sit.</h1>
+          <img
+            src="https://unsplash.it/700/300?image=870"
+            alt="Image for article"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            porro ipsa error alias impedit a fugiat incidunt voluptates odio
+            aliquid? Autem debitis velit sequi explicabo nam sint, laborum odio
+            rerum! Perferendis inventore nesciunt omnis atque eligendi accusamus
+            commodi voluptatibus at eaque qui deleniti quidem impedit neque iste
+            placeat nemo error, quia dolor minima unde, exercitationem
+            distinctio aperiam. At, exercitationem eligendi? Corrupti, laborum
+            quia sit commodi dicta exercitationem illo accusantium neque
+            voluptates assumenda nam possimus enim rem accusamus minus
+            repellendus dolorum non ab aliquid at unde ex! Voluptates et esse
+            adipisci!
+          </p>
+        </article>
+        <aside>
+          <section class="widget">
+            <h2>O autorze:</h2>
+            <img
+              src="https://unsplash.it/100/100?image=1062"
+              alt="Author's photo"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia obcaecati corrupti magnam similique blanditiis fuga vero, in dicta quod, facere vel facilis nisi voluptates, exercitationem ullam doloremque dolorem labore non?
+              Dolorum, autem facere? Veniam soluta illo explicabo animi nostrum error reiciendis sit corrupti expedita amet! Cumque quidem ratione esse corporis, id tenetur accusantium, ipsa similique veniam, doloribus deleniti fuga in!
+              Maxime minima incidunt hic harum, doloribus dicta, dolor placeat exercitationem ratione nihil earum porro id excepturi corrupti enim voluptatem asperiores quae beatae fuga necessitatibus aliquid totam voluptatibus adipisci. Quod, nesciunt.
+              Corporis molestias non consequuntur labore maxime, doloribus perferendis natus commodi explicabo deleniti quo obcaecati voluptatum dignissimos, sint incidunt necessitatibus amet, ullam sunt ut mollitia ipsam? In soluta ex cum culpa?
+            </p>
+          </section>
+          <section class="links">
+            <h3>Links:</h3>
+            <!-- wykorzystaj emmeta do wygenerowania listy trzech linków, które otwierają się w nowej karcie  -->
+            <!-- ul>li*3>a[href="#" target="_blank"] -->
+            <ul>
+              <li>
+                <a href="https://www.onet.pl" target="_blank">ONET</a>
+              </li>
+              <li>
+                <a href="https://www.wsb.pl" target="_blank">WSB</a>
+              </li>
+              <li>
+                <a href="https://www.wroclaw.pl" target="_blank">WROCLAW.PL</a>
+              </li>
+            </ul>
+          </section>
+        </aside>
+       
+       
+      </main>
+      <footer>
+        <p>Copyright &copy; by WSB Students 2023/2024 PF</p>
+        <p>Social media</p>
+        <i class="fab fa-instagram fa-spin"></i>
+      </footer>
+    </div>
+  </body>
+</html>
+
+
+CSS:
+/* Tu jest komentarz kodu CSS - kaskadowe arkusze styli */
+
+/* General rules */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1000px;
+  border: 3px solid darkgrey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling elements in listed order */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+/* brand */
+/* 
+.brand a,
+.brand img {
+  display: block;
+} */
+
+/* menu */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 18px;
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* pseudoklasa CSS */
+nav ul li a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* nav ul li:first-of-type a   {
+    color: blue;
+} */
+
+nav ul li:first-child a {
+  color: blue;
+}
+
+/* Slider */
+
+.slider img {
+  display: block;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 70%;
+  background-color: darkgrey;
+  padding: 30px;
+}
+
+article img {
+  padding: 20px;
+  border: 10px solid red;
+  width: 700px;
+}
+
+aside {
+  width: 30%;
+  padding: 20px;
+  background-color: lightgrey;
+  border-left: 5px dashed black;
+}
+
+.widget {
+  padding-bottom: 50px;
+}
+
+.widget img {
+  float: left;
+  border: 10px solid blue;
+  margin: 0 5px 3px 0;
+  width: 100px;
+  padding: 5px;
+}
+
+.links ul {
+  list-style-type: square;
+}
+
+.links ul li {
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+/* footer */
+
+footer p {
+  text-align: center;
+  padding: 10px;
+  background-color: lightslategray;
+  margin: 0;
+}
+
+
+
+=== 29.10 ciąg dalszy: 
+update html (od linijki 122)
+
+https://www.w3schools.com/css/css_boxmodel.asp
+
+https://www.w3schools.com/css/css3_box-sizing.asp
+
+https://codepen.io/
+
+https://fontawesome.com/v5/search?m=free
+
+https://www.freecodecamp.org/news/how-to-use-font-awesome-v5-7-2-with-html/
+
+GIT ciąg dalszy na linku: https://codeshare.io/PdWzKX

@@ -1,0 +1,130 @@
+/* Komentarze kodu CSS */
+
+/* General rules */
+
+/* ustawienie  */
+* {
+  box-sizing: border-box;
+
+  /* rozciąga automatycznie do 100% */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1000px;
+  border: 3px solid rgb(211, 98, 98);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Styling elements in listed order */
+
+/* selektotr css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* wszystko po środku */
+  align-items: center;
+  padding: 20px 15px 20px 15px;
+}
+
+/* bran */
+
+/* .brand a,
+.brand img {
+    display: block;
+} */
+.brand img {
+  width: 200px;
+  height: auto;
+}
+/* menu */
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 18px;
+  color: rgb(170, 108, 15);
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* pseudoklasa CSS */
+
+nav ul li a:hover {
+  color: white;
+  background: linear-gradient(to right, rgb(187, 127, 14), rgb(180, 16, 16));
+}
+
+nav ul li:first-of-type a {
+  color: rgb(7, 7, 7);
+}
+
+/* Slider */
+
+.slider img {
+  display: block;
+}
+
+/* main */
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+}
+article h1 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+}
+
+article img {
+  border: 5px inset rgb(211, 98, 98);
+  width: 700px;
+}
+
+aside {
+  width: 30%;
+  padding: 20px;
+  background-color: rgb(255, 228, 181);
+  border: 5px inset rgb(211, 98, 98);
+}
+
+.widget img {
+  float: left;
+  border: 2px solid rgb(211, 98, 98);
+  margin: 0px 5px 3px 0px;
+  width: 100px;
+}
+
+.links ul {
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+.links ul li {
+  padding-bottom: 5px;
+}
+
+footer p {
+  text-align: center;
+  align-items: center;
+}
